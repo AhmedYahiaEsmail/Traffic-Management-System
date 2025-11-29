@@ -66,6 +66,13 @@ The system design relies on a Class Diagram representing real-world entities:
 * **Polymorphism:** (Mention where methods with the same name behave differently across classes).
 * **Abstraction:** Used to separate interfaces from their underlying implementations.
 
+### Data Persistence & Design Constraints
+
+To ensure efficient data handling and maintain clean code architecture, data persistence (reading and writing system data) strictly adhered to the following design constraints:
+
+* **Optimized File Handling:** The entire system utilizes **only two dedicated functions** for all file reading and writing operations.
+* **Purpose:** This constraint was implemented to centralize data management logic, enhancing **maintainability** and demonstrating proficiency in **resource management** within the OOP paradigm.
+
 ---
 
 ## Technology Stack
@@ -95,3 +102,4 @@ This project was developed through **collaborative teamwork** as part of the aca
 * Building the necessary logic to **check vehicle status** and display registration details.
 
 ---
+
